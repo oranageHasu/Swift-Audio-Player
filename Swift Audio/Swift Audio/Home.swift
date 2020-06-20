@@ -9,13 +9,15 @@
 import SwiftUI
 
 struct Home: View {
+    var media: Media
+    
     var body: some View {
-        Text("Hello, World!")
+        Text(media.artist)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        Home()
+        Home(media: mediaData[0])
     }
 }
