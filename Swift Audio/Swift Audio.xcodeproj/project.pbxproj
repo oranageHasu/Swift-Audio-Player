@@ -15,6 +15,8 @@
 		3C60C2B0249E919000FB7FBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C60C2AE249E919000FB7FBF /* LaunchScreen.storyboard */; };
 		3C60C2BB249E919000FB7FBF /* Swift_AudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C60C2BA249E919000FB7FBF /* Swift_AudioTests.swift */; };
 		3C60C2C6249E919000FB7FBF /* Swift_AudioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C60C2C5249E919000FB7FBF /* Swift_AudioUITests.swift */; };
+		3C60C2D8249E98E600FB7FBF /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C60C2D7249E98E600FB7FBF /* Media.swift */; };
+		3C60C2DA249EA4EA00FB7FBF /* MediaData.json in Resources */ = {isa = PBXBuildFile; fileRef = 3C60C2D9249EA4EA00FB7FBF /* MediaData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3C60C2C1249E919000FB7FBF /* Swift AudioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift AudioUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C60C2C5249E919000FB7FBF /* Swift_AudioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_AudioUITests.swift; sourceTree = "<group>"; };
 		3C60C2C7249E919000FB7FBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C60C2D7249E98E600FB7FBF /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		3C60C2D9249EA4EA00FB7FBF /* MediaData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MediaData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +153,7 @@
 		3C60C2D4249E94ED00FB7FBF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				3C60C2D9249EA4EA00FB7FBF /* MediaData.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -156,6 +161,7 @@
 		3C60C2D6249E94FA00FB7FBF /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				3C60C2D7249E98E600FB7FBF /* Media.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -264,6 +270,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C60C2DA249EA4EA00FB7FBF /* MediaData.json in Resources */,
 				3C60C2B0249E919000FB7FBF /* LaunchScreen.storyboard in Resources */,
 				3C60C2AD249E919000FB7FBF /* Preview Assets.xcassets in Resources */,
 				3C60C2AA249E919000FB7FBF /* Assets.xcassets in Resources */,
@@ -293,6 +300,7 @@
 			files = (
 				3C60C2A4249E918A00FB7FBF /* AppDelegate.swift in Sources */,
 				3C60C2A6249E918A00FB7FBF /* SceneDelegate.swift in Sources */,
+				3C60C2D8249E98E600FB7FBF /* Media.swift in Sources */,
 				3C60C2A8249E918A00FB7FBF /* Home.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

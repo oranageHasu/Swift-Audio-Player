@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "artist": "Portugal, The Man",
+        "title": "Feel It Still (Live)",
+        "source": "DigitalFile",
+        "isFeatured": true,
+        "isFavorite": true,
+    },
+    {
+        "id": 2,
+        "artist": "Queen",
+        "title": "Crazy Little Thing Called Love",
+        "source": "Youtube",
+        "isFeatured": false,
+        "isFavorite": true,
+    },
+    {
+        "id": 3,
+        "artist": "Rize Against",
+        "title": "Hero Of War",
+        "source": "Youtube",
+        "isFeatured": false,
+        "isFavorite": false,
+    },
+    {
+        "id": 4,
+        "artist": "Song Writer X",
+        "title": "Feel In A Well",
+        "source": "Youtube",
+        "isFeatured": false,
+        "isFavorite": true,
+    },
+    {
+        "id": 5,
+        "artist": "Scott McKenzie",
+        "title": "If You're Going To San Francisco (Be Sure To Wear Some Flowers In Your Hair)",
+        "source": "Youtube",
+        "isFeatured": false,
+        "isFavorite": false,
+    }
+]
+
