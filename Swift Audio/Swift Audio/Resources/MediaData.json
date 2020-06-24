@@ -1,43 +1,57 @@
 [
     {
         "id": 1,
-        "artist": "Portugal, The Man",
-        "title": "Feel It Still (Live)",
+        "artist": "Men At Work",
+        "title": "Who Can It Be Now",
         "source": "DigitalFile",
         "isFeatured": true,
         "isFavorite": true,
+        "imageName": "Men At Work"
     },
     {
         "id": 2,
+        "artist": "The Reklaws",
+        "title": "Old Country Soul",
+        "source": "Youtube",
+        "isFeatured": false,
+        "isFavorite": true,
+        "imageName": "Reklaws"
+    },
+    {
+        "id": 3,
         "artist": "Queen",
         "title": "Crazy Little Thing Called Love",
         "source": "Youtube",
         "isFeatured": false,
         "isFavorite": true,
+        "imageName": "The Reklaws"
     },
     {
-        "id": 3,
+        "id": 4,
         "artist": "Rize Against",
         "title": "Hero Of War",
         "source": "Youtube",
         "isFeatured": false,
         "isFavorite": false,
+        "imageName": "Men At Work"
     },
     {
-        "id": 4,
+        "id": 5,
         "artist": "Song Writer X",
         "title": "Feel In A Well",
         "source": "Youtube",
         "isFeatured": false,
         "isFavorite": true,
+        "imageName": "Men At Work"
     },
     {
-        "id": 5,
+        "id": 6,
         "artist": "Scott McKenzie",
         "title": "If You're Going To San Francisco (Be Sure To Wear Some Flowers In Your Hair)",
         "source": "Youtube",
         "isFeatured": false,
         "isFavorite": false,
+        "imageName": "Men At Work"
     }
 ]
 

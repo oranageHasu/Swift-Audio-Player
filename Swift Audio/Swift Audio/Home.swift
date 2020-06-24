@@ -12,7 +12,8 @@ struct Home: View {
     var media: Media
     
     var body: some View {
-        Text(media.artist)
+        MediaPlayer()
+            .environmentObject(UserData())
     }
 }
 

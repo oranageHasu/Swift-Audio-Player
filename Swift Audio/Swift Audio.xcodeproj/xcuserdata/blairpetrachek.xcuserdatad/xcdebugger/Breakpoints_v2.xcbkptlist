@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A79E1820-4B43-49D5-B5A8-5DB480C9DBA8"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BB203970-8602-4348-837E-154FB94F51B4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Swift Audio/Component Views/Media Player/Components/MediaButtons.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "263"
+            endingLineNumber = "263"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "57CF3862-316F-4025-81A4-6A129EAA37C3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Swift Audio/Component Views/Media Player/Components/MediaButtons.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "251"
+            endingLineNumber = "251"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "57CF3862-316F-4025-81A4-6A129EAA37C3 - a67ce96a59b3e694"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift_Audio.MediaButtons.playSong() -&gt; ()"
+                  moduleName = "Swift Audio"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/blairpetrachek/Desktop/Development/Swift-Audio-Player/Swift%20Audio/Swift%20Audio/Component%20Views/Media%20Player/Components/MediaButtons.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "131"
+                  endingLineNumber = "131"
+                  offsetFromSymbolStart = "952">
+               </Location>
+               <Location
+                  uuid = "57CF3862-316F-4025-81A4-6A129EAA37C3 - a2404dca97bdc113"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(extension in Swift_Audio_PreviewReplacement_MediaButtons_6):Swift_Audio.MediaButtons.(__preview__playSong in _FAC39AABF06D72E842EAA62EC7CCCD9E)() -&gt; ()"
+                  moduleName = "86BD6C5B-3513-4D38-869F-247145F21AEF-MediaButtons.6.preview-thunk.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/blairpetrachek/Desktop/Development/Swift-Audio-Player/Swift%20Audio/Swift%20Audio/Component%20Views/Media%20Player/Components/MediaButtons.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "132"
+                  endingLineNumber = "132"
+                  offsetFromSymbolStart = "800">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "37C3456F-7EF1-491B-9CBD-A303076A394C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Swift Audio/Component Views/Media Player/Components/MediaButtons.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "264"
+            endingLineNumber = "264"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "70047D9C-FA5D-4CBE-B83A-1F53D559DE99"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Swift Audio/Component Views/Media Player/Components/MediaButtons.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "260"
+            endingLineNumber = "260"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "70047D9C-FA5D-4CBE-B83A-1F53D559DE99 - a67ce96a59b3e694"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift_Audio.MediaButtons.playSong() -&gt; ()"
+                  moduleName = "Swift Audio"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/blairpetrachek/Desktop/Development/Swift-Audio-Player/Swift%20Audio/Swift%20Audio/Component%20Views/Media%20Player/Components/MediaButtons.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "190"
+                  endingLineNumber = "190"
+                  offsetFromSymbolStart = "1652">
+               </Location>
+               <Location
+                  uuid = "70047D9C-FA5D-4CBE-B83A-1F53D559DE99 - 6320f61bb2b34277"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(extension in Swift_Audio_PreviewReplacement_MediaButtons_6):Swift_Audio.MediaButtons.(__preview__playSong in _FAC39AABF06D72E842EAA62EC7CCCD9E)() -&gt; ()"
+                  moduleName = "15694F10-9E2C-4D36-8030-CC83914A9CB3-MediaButtons.6.preview-thunk.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/blairpetrachek/Desktop/Development/Swift-Audio-Player/Swift%20Audio/Swift%20Audio/Component%20Views/Media%20Player/Components/MediaButtons.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "190"
+                  endingLineNumber = "190"
+                  offsetFromSymbolStart = "1276">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1AF273C8-8131-4A46-A9D1-640196D238C5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Swift Audio/Component Views/Media Player/Components/MediaButtons.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "246"
+            endingLineNumber = "246"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "1AF273C8-8131-4A46-A9D1-640196D238C5 - a67ce96a59b3e694"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift_Audio.MediaButtons.playSong() -&gt; ()"
+                  moduleName = "Swift Audio"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/blairpetrachek/Desktop/Development/Swift-Audio-Player/Swift%20Audio/Swift%20Audio/Component%20Views/Media%20Player/Components/MediaButtons.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "221"
+                  endingLineNumber = "221"
+                  offsetFromSymbolStart = "1684">
+               </Location>
+               <Location
+                  uuid = "1AF273C8-8131-4A46-A9D1-640196D238C5 - dded5b6af04737b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(extension in Swift_Audio_PreviewReplacement_MediaButtons_6):Swift_Audio.MediaButtons.(__preview__playSong in _FAC39AABF06D72E842EAA62EC7CCCD9E)() -&gt; ()"
+                  moduleName = "2525C61D-B066-48BF-ACA3-7BF0B9C12F1F-MediaButtons.6.preview-thunk.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/blairpetrachek/Desktop/Development/Swift-Audio-Player/Swift%20Audio/Swift%20Audio/Component%20Views/Media%20Player/Components/MediaButtons.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "219"
+                  endingLineNumber = "219"
+                  offsetFromSymbolStart = "1196">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "04A5155E-ABF6-4639-8A35-6C1AEDDCF58C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Swift Audio/Component Views/Media Player/Components/MediaButtons.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "231"
+            endingLineNumber = "231"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "48F0C153-14FF-495A-9AE7-593F7428C3C8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Swift Audio/Component Views/Media Player/Components/MediaButtons.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "223"
+            endingLineNumber = "223"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "48F0C153-14FF-495A-9AE7-593F7428C3C8 - 5868b2fa07a658d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift_Audio.MediaButtons.nextSong() -&gt; ()"
+                  moduleName = "Swift Audio"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/blairpetrachek/Desktop/Development/Swift-Audio-Player/Swift%20Audio/Swift%20Audio/Component%20Views/Media%20Player/Components/MediaButtons.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "221"
+                  endingLineNumber = "221"
+                  offsetFromSymbolStart = "732">
+               </Location>
+               <Location
+                  uuid = "48F0C153-14FF-495A-9AE7-593F7428C3C8 - ddabf033823f7c98"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(extension in Swift_Audio_PreviewReplacement_MediaButtons_6):Swift_Audio.MediaButtons.(__preview__nextSong in _FAC39AABF06D72E842EAA62EC7CCCD9E)() -&gt; ()"
+                  moduleName = "57CA9BE8-1847-446C-A166-F978D86B2E30-MediaButtons.6.preview-thunk.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/blairpetrachek/Desktop/Development/Swift-Audio-Player/Swift%20Audio/Swift%20Audio/Component%20Views/Media%20Player/Components/MediaButtons.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "221"
+                  endingLineNumber = "221"
+                  offsetFromSymbolStart = "968">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

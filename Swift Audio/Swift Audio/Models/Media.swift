@@ -17,6 +17,7 @@ struct Media: Hashable, Codable, Identifiable {
     // Media Meta Data
     var artist: String
     var title: String
+    fileprivate var imageName: String
     
     // Media source
     var source: Source
@@ -31,5 +32,11 @@ struct Media: Hashable, Codable, Identifiable {
     enum Source: String, CaseIterable, Codable, Hashable {
         case digitalFile = "DigitalFile"
         case youtube = "Youtube"
+    }
+}
+
+extension Media {
+    var image: Image {
+        ImageStore.shared.image(name: imageName)
     }
 }
