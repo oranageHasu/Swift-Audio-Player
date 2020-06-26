@@ -16,9 +16,7 @@ struct MediaDetail: View {
             VStack(alignment: .leading) {
                 Text(media.artist)
                     .font(.title)
-                    .foregroundColor(.black)
                 Text(media.title)
-                    .foregroundColor(.black)
             }
             Spacer()
         }

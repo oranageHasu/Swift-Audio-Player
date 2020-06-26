@@ -40,7 +40,7 @@ struct MediaButtons: View {
         return VStack {
             HStack {
                 Text("\(timeIntervalToString(timeInterval: self.playTime))")
-                    .foregroundColor(Color.black)
+                    .foregroundColor(self.getSystemCompatibleColor())
                     .padding(.leading)
                     .onReceive(self.timer) { _ in
                         if self.isPlaying {
@@ -56,7 +56,7 @@ struct MediaButtons: View {
                 Slider(value: self.$playTime, in: 0...self.songDuration)
                     
                 Text("\(timeIntervalToString(timeInterval: self.songDuration))")
-                    .foregroundColor(Color.black)
+                    .foregroundColor(self.getSystemCompatibleColor())
                     .padding(.trailing)
             }
             
@@ -74,7 +74,7 @@ struct MediaButtons: View {
                             .padding(.trailing, 30)
                     } else {
                         Image(systemName: "shuffle")
-                            .foregroundColor(Color.black)
+                            .foregroundColor(self.getSystemCompatibleColor())
                             .padding(.trailing, 30)
                     }
                 }
@@ -83,7 +83,7 @@ struct MediaButtons: View {
                     self.lastSong()
                 })  {
                     Image(systemName: "backward.end.fill")
-                        .foregroundColor(Color.black)
+                        .foregroundColor(self.getSystemCompatibleColor())
                         .font(.system(size: 25))
                         .padding(.trailing, 5)
                 }
@@ -92,7 +92,7 @@ struct MediaButtons: View {
                     print("Rewind clicked.")
                 })  {
                     Image(systemName: "backward.fill")
-                        .foregroundColor(Color.black)
+                        .foregroundColor(self.getSystemCompatibleColor())
                         .font(.system(size: 25))
                         .padding(.trailing, 5)
                 }
@@ -101,7 +101,7 @@ struct MediaButtons: View {
                     self.stopSong()
                 })  {
                     Image(systemName: "stop.fill")
-                        .foregroundColor(Color.black)
+                        .foregroundColor(self.getSystemCompatibleColor())
                         .font(.system(size: 25))
                         .padding(.trailing, 5)
                 }
@@ -138,7 +138,7 @@ struct MediaButtons: View {
                     print("Fast forward clicked.")
                 })  {
                     Image(systemName: "forward.fill")
-                        .foregroundColor(Color.black)
+                        .foregroundColor(self.getSystemCompatibleColor())
                         .font(.system(size: 25))
                         .padding(.trailing, 5)
                 }
@@ -147,7 +147,7 @@ struct MediaButtons: View {
                     self.nextSong()
                 })  {
                     Image(systemName: "forward.end.fill")
-                        .foregroundColor(Color.black)
+                        .foregroundColor(self.getSystemCompatibleColor())
                         .font(.system(size: 25))
                 }
                 
@@ -161,7 +161,7 @@ struct MediaButtons: View {
                             .padding(.leading, 30)
                     } else {
                         Image(systemName: "repeat")
-                            .foregroundColor(Color.black)
+                            .foregroundColor(self.getSystemCompatibleColor())
                             .padding(.leading, 30)
                     }
             
@@ -268,6 +268,13 @@ struct MediaButtons: View {
     func timeIntervalToString(timeInterval: TimeInterval) -> String {
         let time = timeFormat.string(from: Date(timeIntervalSince1970: timeInterval))
         return time
+    }
+    
+    func getSystemCompatibleColor() -> Color {
+        
+        let retval = Color.white
+        
+        return retval
     }
 }
 

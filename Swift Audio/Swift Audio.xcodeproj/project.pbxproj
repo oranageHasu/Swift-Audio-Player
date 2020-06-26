@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C09564124A55C85009214FF /* MediaButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C09563E24A55C85009214FF /* MediaButtons.swift */; };
+		3C09564224A55C85009214FF /* MediaDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C09563F24A55C85009214FF /* MediaDetail.swift */; };
+		3C09564324A55C85009214FF /* MediaImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C09564024A55C85009214FF /* MediaImage.swift */; };
+		3C09564524A560A6009214FF /* MediaListHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C09564424A560A6009214FF /* MediaListHeader.swift */; };
 		3C60C2A4249E918A00FB7FBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C60C2A3249E918A00FB7FBF /* AppDelegate.swift */; };
 		3C60C2A6249E918A00FB7FBF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C60C2A5249E918A00FB7FBF /* SceneDelegate.swift */; };
 		3C60C2A8249E918A00FB7FBF /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C60C2A7249E918A00FB7FBF /* Home.swift */; };
@@ -18,11 +22,11 @@
 		3C60C2D8249E98E600FB7FBF /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C60C2D7249E98E600FB7FBF /* Media.swift */; };
 		3C60C2DA249EA4EA00FB7FBF /* MediaData.json in Resources */ = {isa = PBXBuildFile; fileRef = 3C60C2D9249EA4EA00FB7FBF /* MediaData.json */; };
 		3C60C2DC249EA7BC00FB7FBF /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C60C2DB249EA7BC00FB7FBF /* Data.swift */; };
-		3C60C2DF249EAA5E00FB7FBF /* MediaPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C60C2DE249EAA5E00FB7FBF /* MediaPlayer.swift */; };
-		3C60C2E2249EAC9600FB7FBF /* MediaDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C60C2E1249EAC9600FB7FBF /* MediaDetail.swift */; };
-		3C60C2E4249EACAD00FB7FBF /* MediaButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C60C2E3249EACAD00FB7FBF /* MediaButtons.swift */; };
-		3C60C2E6249EACE200FB7FBF /* MediaImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C60C2E5249EACE200FB7FBF /* MediaImage.swift */; };
 		3C60C2E8249EB5B000FB7FBF /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C60C2E7249EB5B000FB7FBF /* UserData.swift */; };
+		3C9BACEB24A41AF50003CF13 /* MediaLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9BACEA24A41AF50003CF13 /* MediaLibrary.swift */; };
+		3C9BACED24A54E4A0003CF13 /* MediaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9BACEC24A54E4A0003CF13 /* MediaRow.swift */; };
+		3C9BACF524A559E70003CF13 /* MediaList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9BACF424A559E70003CF13 /* MediaList.swift */; };
+		3C9BACF724A55B780003CF13 /* MediaPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9BACF624A55B780003CF13 /* MediaPlayer.swift */; };
 		3CD47390249FDE370049800C /* The Reklaws - Old Country Soul.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CD4738E249FDE370049800C /* The Reklaws - Old Country Soul.mp3 */; };
 		3CD47391249FDE370049800C /* Men At Work - Who Can It Be Now.flac in Resources */ = {isa = PBXBuildFile; fileRef = 3CD4738F249FDE370049800C /* Men At Work - Who Can It Be Now.flac */; };
 		3CFF615224A2B49600C6BD30 /* Men At Work.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CFF615024A2B49600C6BD30 /* Men At Work.jpg */; };
@@ -47,6 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C09563E24A55C85009214FF /* MediaButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaButtons.swift; sourceTree = "<group>"; };
+		3C09563F24A55C85009214FF /* MediaDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaDetail.swift; sourceTree = "<group>"; };
+		3C09564024A55C85009214FF /* MediaImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaImage.swift; sourceTree = "<group>"; };
+		3C09564424A560A6009214FF /* MediaListHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaListHeader.swift; sourceTree = "<group>"; };
 		3C60C2A0249E918A00FB7FBF /* Swift Audio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Audio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C60C2A3249E918A00FB7FBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C60C2A5249E918A00FB7FBF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,11 +72,11 @@
 		3C60C2D7249E98E600FB7FBF /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
 		3C60C2D9249EA4EA00FB7FBF /* MediaData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MediaData.json; sourceTree = "<group>"; };
 		3C60C2DB249EA7BC00FB7FBF /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		3C60C2DE249EAA5E00FB7FBF /* MediaPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPlayer.swift; sourceTree = "<group>"; };
-		3C60C2E1249EAC9600FB7FBF /* MediaDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaDetail.swift; sourceTree = "<group>"; };
-		3C60C2E3249EACAD00FB7FBF /* MediaButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaButtons.swift; sourceTree = "<group>"; };
-		3C60C2E5249EACE200FB7FBF /* MediaImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaImage.swift; sourceTree = "<group>"; };
 		3C60C2E7249EB5B000FB7FBF /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		3C9BACEA24A41AF50003CF13 /* MediaLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaLibrary.swift; sourceTree = "<group>"; };
+		3C9BACEC24A54E4A0003CF13 /* MediaRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaRow.swift; sourceTree = "<group>"; };
+		3C9BACF424A559E70003CF13 /* MediaList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaList.swift; sourceTree = "<group>"; };
+		3C9BACF624A55B780003CF13 /* MediaPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaPlayer.swift; sourceTree = "<group>"; };
 		3CD4738E249FDE370049800C /* The Reklaws - Old Country Soul.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Reklaws - Old Country Soul.mp3"; sourceTree = "<group>"; };
 		3CD4738F249FDE370049800C /* Men At Work - Who Can It Be Now.flac */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Men At Work - Who Can It Be Now.flac"; sourceTree = "<group>"; };
 		3CD47393249FE6BD0049800C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -101,6 +109,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C09563D24A55C4B009214FF /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3C09563E24A55C85009214FF /* MediaButtons.swift */,
+				3C09563F24A55C85009214FF /* MediaDetail.swift */,
+				3C09564024A55C85009214FF /* MediaImage.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		3C60C297249E918A00FB7FBF = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +186,7 @@
 		3C60C2D3249E94E200FB7FBF /* Component Views */ = {
 			isa = PBXGroup;
 			children = (
+				3C9BACE824A41ABB0003CF13 /* Media Library */,
 				3C60C2DD249EAA3E00FB7FBF /* Media Player */,
 			);
 			path = "Component Views";
@@ -198,18 +217,27 @@
 		3C60C2DD249EAA3E00FB7FBF /* Media Player */ = {
 			isa = PBXGroup;
 			children = (
-				3C60C2E0249EAA8600FB7FBF /* Components */,
-				3C60C2DE249EAA5E00FB7FBF /* MediaPlayer.swift */,
+				3C09563D24A55C4B009214FF /* Components */,
+				3C9BACF624A55B780003CF13 /* MediaPlayer.swift */,
 			);
 			path = "Media Player";
 			sourceTree = "<group>";
 		};
-		3C60C2E0249EAA8600FB7FBF /* Components */ = {
+		3C9BACE824A41ABB0003CF13 /* Media Library */ = {
 			isa = PBXGroup;
 			children = (
-				3C60C2E1249EAC9600FB7FBF /* MediaDetail.swift */,
-				3C60C2E3249EACAD00FB7FBF /* MediaButtons.swift */,
-				3C60C2E5249EACE200FB7FBF /* MediaImage.swift */,
+				3C9BACE924A41AE20003CF13 /* Components */,
+				3C9BACEA24A41AF50003CF13 /* MediaLibrary.swift */,
+			);
+			path = "Media Library";
+			sourceTree = "<group>";
+		};
+		3C9BACE924A41AE20003CF13 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3C9BACEC24A54E4A0003CF13 /* MediaRow.swift */,
+				3C9BACF424A559E70003CF13 /* MediaList.swift */,
+				3C09564424A560A6009214FF /* MediaListHeader.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -359,15 +387,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C60C2A4249E918A00FB7FBF /* AppDelegate.swift in Sources */,
+				3C9BACF724A55B780003CF13 /* MediaPlayer.swift in Sources */,
 				3C60C2DC249EA7BC00FB7FBF /* Data.swift in Sources */,
 				3C60C2A6249E918A00FB7FBF /* SceneDelegate.swift in Sources */,
-				3C60C2E2249EAC9600FB7FBF /* MediaDetail.swift in Sources */,
-				3C60C2E4249EACAD00FB7FBF /* MediaButtons.swift in Sources */,
+				3C09564124A55C85009214FF /* MediaButtons.swift in Sources */,
+				3C9BACEB24A41AF50003CF13 /* MediaLibrary.swift in Sources */,
+				3C9BACED24A54E4A0003CF13 /* MediaRow.swift in Sources */,
+				3C09564224A55C85009214FF /* MediaDetail.swift in Sources */,
 				3C60C2D8249E98E600FB7FBF /* Media.swift in Sources */,
 				3C60C2A8249E918A00FB7FBF /* Home.swift in Sources */,
-				3C60C2DF249EAA5E00FB7FBF /* MediaPlayer.swift in Sources */,
 				3C60C2E8249EB5B000FB7FBF /* UserData.swift in Sources */,
-				3C60C2E6249EACE200FB7FBF /* MediaImage.swift in Sources */,
+				3C09564524A560A6009214FF /* MediaListHeader.swift in Sources */,
+				3C9BACF524A559E70003CF13 /* MediaList.swift in Sources */,
+				3C09564324A55C85009214FF /* MediaImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

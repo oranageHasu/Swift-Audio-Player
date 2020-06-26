@@ -24,6 +24,7 @@ struct MediaPlayer: View {
             
             Spacer()
         }
+        .background(Color(UIColor.systemBackground))
     }
 }
 
