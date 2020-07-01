@@ -23,4 +23,5 @@ final class UserData: ObservableObject {
     
     // Media Data
     @Published var media = mediaData
+    @Published var networkMedia = mediaFromNetwork
 }

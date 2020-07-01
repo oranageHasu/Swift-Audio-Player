@@ -24,7 +24,7 @@ struct MediaRow: View {
             
             Spacer()
             
-            Text("5:18")
+            Text(self.media.duration)
                 .padding(.trailing)
                 .font(.headline)
         }

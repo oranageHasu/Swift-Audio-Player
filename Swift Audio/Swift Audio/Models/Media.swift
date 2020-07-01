@@ -17,6 +17,7 @@ struct Media: Hashable, Codable, Identifiable {
     // Media Meta Data
     var artist: String
     var title: String
+    var duration: String
     fileprivate var imageName: String
     
     // Media source

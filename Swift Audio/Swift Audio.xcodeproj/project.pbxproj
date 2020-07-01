@@ -11,6 +11,8 @@
 		3C09564224A55C85009214FF /* MediaDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C09563F24A55C85009214FF /* MediaDetail.swift */; };
 		3C09564324A55C85009214FF /* MediaImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C09564024A55C85009214FF /* MediaImage.swift */; };
 		3C09564524A560A6009214FF /* MediaListHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C09564424A560A6009214FF /* MediaListHeader.swift */; };
+		3C09564724A68858009214FF /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C09564624A68858009214FF /* FileManager.swift */; };
+		3C2203E724A95F54003B4050 /* DocumentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2203E624A95F54003B4050 /* DocumentPickerViewController.swift */; };
 		3C60C2A4249E918A00FB7FBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C60C2A3249E918A00FB7FBF /* AppDelegate.swift */; };
 		3C60C2A6249E918A00FB7FBF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C60C2A5249E918A00FB7FBF /* SceneDelegate.swift */; };
 		3C60C2A8249E918A00FB7FBF /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C60C2A7249E918A00FB7FBF /* Home.swift */; };
@@ -55,6 +57,8 @@
 		3C09563F24A55C85009214FF /* MediaDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaDetail.swift; sourceTree = "<group>"; };
 		3C09564024A55C85009214FF /* MediaImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaImage.swift; sourceTree = "<group>"; };
 		3C09564424A560A6009214FF /* MediaListHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaListHeader.swift; sourceTree = "<group>"; };
+		3C09564624A68858009214FF /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		3C2203E624A95F54003B4050 /* DocumentPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentPickerViewController.swift; sourceTree = "<group>"; };
 		3C60C2A0249E918A00FB7FBF /* Swift Audio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Audio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C60C2A3249E918A00FB7FBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C60C2A5249E918A00FB7FBF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -210,6 +214,7 @@
 				3C60C2D7249E98E600FB7FBF /* Media.swift */,
 				3C60C2DB249EA7BC00FB7FBF /* Data.swift */,
 				3C60C2E7249EB5B000FB7FBF /* UserData.swift */,
+				3C09564624A68858009214FF /* FileManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -238,6 +243,7 @@
 				3C9BACEC24A54E4A0003CF13 /* MediaRow.swift */,
 				3C9BACF424A559E70003CF13 /* MediaList.swift */,
 				3C09564424A560A6009214FF /* MediaListHeader.swift */,
+				3C2203E624A95F54003B4050 /* DocumentPickerViewController.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -386,6 +392,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C09564724A68858009214FF /* FileManager.swift in Sources */,
 				3C60C2A4249E918A00FB7FBF /* AppDelegate.swift in Sources */,
 				3C9BACF724A55B780003CF13 /* MediaPlayer.swift in Sources */,
 				3C60C2DC249EA7BC00FB7FBF /* Data.swift in Sources */,
@@ -398,6 +405,7 @@
 				3C60C2A8249E918A00FB7FBF /* Home.swift in Sources */,
 				3C60C2E8249EB5B000FB7FBF /* UserData.swift in Sources */,
 				3C09564524A560A6009214FF /* MediaListHeader.swift in Sources */,
+				3C2203E724A95F54003B4050 /* DocumentPickerViewController.swift in Sources */,
 				3C9BACF524A559E70003CF13 /* MediaList.swift in Sources */,
 				3C09564324A55C85009214FF /* MediaImage.swift in Sources */,
 			);

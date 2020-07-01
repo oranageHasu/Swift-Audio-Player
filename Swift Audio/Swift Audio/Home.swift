@@ -12,7 +12,7 @@ struct Home: View {
     var media: Media
     
     var body: some View {
-        MediaPlayer()
+        MediaLibrary()
             .environmentObject(UserData())
     }
 }
