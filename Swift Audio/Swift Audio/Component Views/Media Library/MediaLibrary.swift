@@ -12,14 +12,10 @@ struct MediaLibrary: View {
     @EnvironmentObject var userData: UserData
     
     var body: some View {
-        NavigationView {
-            VStack {
-                MediaListHeader()
-                MediaList()
-                    .environmentObject(self.userData)
-            }
-            .navigationBarTitle(Text("Music Library"))
-            .background(Color(UIColor.systemBackground))
+        VStack {
+            MediaListHeader()
+            MediaList()
+                .environmentObject(self.userData)
         }
     }
 }

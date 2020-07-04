@@ -17,9 +17,9 @@ final class UserData: ObservableObject {
     // Play State Control
     @Published var isRandomOn = true
     @Published var isRepeatOn = true
-
-    // UI Display
-    @Published var showFavoritesOnly = false
+    
+    // User Profile
+    @Published var profile = Profile.default
     
     // Media Data
     @Published var media = mediaData

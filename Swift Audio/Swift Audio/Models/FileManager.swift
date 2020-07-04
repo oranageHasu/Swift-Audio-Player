@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import CoreServices
 
-let mediaFromNetwork: [Media] = readFiles()
+let mediaFromNetwork: [URL] = [] //readFiles()
 
 func readFiles() -> [Media] {
     
