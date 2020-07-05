@@ -4,3 +4,5 @@ Swift Audio/Swift Audio/Resources/Men At Work - Who Can It Be Now.flac
 Swift Audio/Swift Audio/Resources/Men At Work.jpg
 Swift Audio/Swift Audio/Resources/Reklaws.jpg
 Swift Audio/Swift Audio.xcodeproj/project.xcworkspace/xcuserdata/blairpetrachek.xcuserdatad/UserInterfaceState.xcuserstate
+*.xcuserstate
+Swift Audio/.DS_Store
