@@ -20,7 +20,6 @@ struct ProfileSummary: View {
             VStack(alignment: .leading) {
                 Text("NAS Folder:")
                     .font(.headline)
-                Text("\(self.profile.nasPath)")
                 Text("\(self.profile.formattedNasPath())")
                     .foregroundColor(Color.blue)
             }
