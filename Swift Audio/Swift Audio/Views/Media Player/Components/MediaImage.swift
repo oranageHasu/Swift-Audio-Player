@@ -9,6 +9,8 @@
 import SwiftUI
 
 struct MediaImage: View {
+    @Environment(\.colorScheme) var colorScheme
+    
     var image: Image
 
     var body: some View {
@@ -17,7 +19,7 @@ struct MediaImage: View {
             .scaledToFill()
             .frame(width: 250, height: 250)
             .clipShape(Circle())
-            .overlay(Circle().stroke(Color.white, lineWidth: 4))
+            .overlay(Circle().stroke(colorScheme == .dark ? Color.white : Color.black, lineWidth: 4))
             .shadow(radius: 10)
     }
 }

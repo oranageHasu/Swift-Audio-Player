@@ -10,6 +10,8 @@ import SwiftUI
 import AVKit
 
 struct MediaButtons: View {
+    @Environment(\.colorScheme) var colorScheme
+    
     // Temp Variables
     var songs = ["Men At Work - Who Can It Be Now.flac","The Reklaws - Old Country Soul.mp3"]
     @Binding var currentSongIndex: Int
@@ -39,24 +41,17 @@ struct MediaButtons: View {
     var body: some View {
         return VStack {
             HStack {
-                Text("\(timeIntervalToString(timeInterval: self.playTime))")
-                    .foregroundColor(self.getSystemCompatibleColor())
+                Text("\(timeIntervalToString(timeInterval: playTime))")
+                    .foregroundColor(getButtonColor(colorScheme))
                     .padding(.leading)
-                    .onReceive(self.timer) { _ in
-                        if self.isPlaying {
-                            if let currentTime = self.player?.currentTime {
-                                self.playTime = currentTime
-                            }
-                        } else {
-                            self.isPlaying = false
-                            self.timer.upstream.connect().cancel()
-                        }
+                    .onReceive(timer) { _ in
+                        self.updatePlayTime()
                     }
                 
-                Slider(value: self.$playTime, in: 0...self.songDuration)
+                Slider(value: $playTime, in: 0...songDuration)
                     
-                Text("\(timeIntervalToString(timeInterval: self.songDuration))")
-                    .foregroundColor(self.getSystemCompatibleColor())
+                Text("\(timeIntervalToString(timeInterval: songDuration))")
+                    .foregroundColor(getButtonColor(colorScheme))
                     .padding(.trailing)
             }
             
@@ -68,14 +63,12 @@ struct MediaButtons: View {
                     self.isShuffleOn.toggle()
                 })  {
                     
-                    if self.isShuffleOn {
+                    if isShuffleOn {
                         Image(systemName: "shuffle")
-                            .foregroundColor(Color.blue)
-                            .padding(.trailing, 30)
+                            .shuffleAudioButtonImage(with: Color.blue)
                     } else {
                         Image(systemName: "shuffle")
-                            .foregroundColor(self.getSystemCompatibleColor())
-                            .padding(.trailing, 30)
+                            .shuffleAudioButtonImage(with: getButtonColor(colorScheme))
                     }
                 }
                 
@@ -83,54 +76,32 @@ struct MediaButtons: View {
                     self.lastSong()
                 })  {
                     Image(systemName: "backward.end.fill")
-                        .foregroundColor(self.getSystemCompatibleColor())
-                        .font(.system(size: 25))
-                        .padding(.trailing, 5)
+                        .audioButtonImage(with: getButtonColor(colorScheme))
                 }
                 
                 Button(action: {
                     print("Rewind clicked.")
                 })  {
                     Image(systemName: "backward.fill")
-                        .foregroundColor(self.getSystemCompatibleColor())
-                        .font(.system(size: 25))
-                        .padding(.trailing, 5)
+                        .audioButtonImage(with: getButtonColor(colorScheme))
                 }
                 
                 Button(action: {
                     self.stopSong()
                 })  {
                     Image(systemName: "stop.fill")
-                        .foregroundColor(self.getSystemCompatibleColor())
-                        .font(.system(size: 25))
-                        .padding(.trailing, 5)
+                        .audioButtonImage(with: getButtonColor(colorScheme))
                 }
                 
                 Button(action: {
-                    
-                    if self.player == nil || !self.player.isPlaying {
-                        
-                        if self.isPaused {
-                          self.resumeSong()
-                        } else {
-                            self.playSong()
-                        }
-                        
-                    } else {
-                        self.pauseSong()
-                    }
-                    
+                    self.playPressed()
                 })  {
                     if !self.isPaused && self.isPlaying {
                         Image(systemName: "pause.fill")
-                            .foregroundColor(Color.blue)
-                            .font(.system(size: 35))
-                            .padding(.trailing, 5)
+                            .playAudioButtonImage()
                     } else {
                         Image(systemName: "play.fill")
-                            .foregroundColor(Color.blue)
-                            .font(.system(size: 35))
-                            .padding(.trailing, 5)
+                            .playAudioButtonImage()
                     }
                 }
                 
@@ -138,44 +109,44 @@ struct MediaButtons: View {
                     print("Fast forward clicked.")
                 })  {
                     Image(systemName: "forward.fill")
-                        .foregroundColor(self.getSystemCompatibleColor())
-                        .font(.system(size: 25))
-                        .padding(.trailing, 5)
+                        .audioButtonImage(with: getButtonColor(colorScheme))
                 }
                 
                 Button(action: {
                     self.nextSong()
                 })  {
                     Image(systemName: "forward.end.fill")
-                        .foregroundColor(self.getSystemCompatibleColor())
-                        .font(.system(size: 25))
+                        .audioButtonImage(with: getButtonColor(colorScheme))
                 }
                 
                 Button(action: {
                     self.isRepeatOn.toggle()
                 })  {
-                    
                     if self.isRepeatOn {
                         Image(systemName: "repeat")
-                            .foregroundColor(Color.blue)
-                            .padding(.leading, 30)
+                            .randomAudioButtonImage(with: Color.blue)
                     } else {
                         Image(systemName: "repeat")
-                            .foregroundColor(self.getSystemCompatibleColor())
-                            .padding(.leading, 30)
+                            .randomAudioButtonImage(with: getButtonColor(colorScheme))
                     }
-            
                 }
                                 
                 Spacer()
             }
+        }
+    }
+    
+    func playPressed() {
+        if self.player == nil || !self.player.isPlaying {
             
-            /*
-            Text("Current Index: \(self.currentSongIndex)")
-                .foregroundColor(.black)
-            Text("Library Size: \(self.songs.count)")
-                .foregroundColor(.black)
-            */
+            if self.isPaused {
+              self.resumeSong()
+            } else {
+                self.playSong()
+            }
+            
+        } else {
+            self.pauseSong()
         }
     }
     
@@ -216,16 +187,12 @@ struct MediaButtons: View {
         // Stop playing the current song
         self.stopSong()
 
-        print("Before: \(self.currentSongIndex)")
-        
         // Reset the Curr Index back to 0 if the user hits the end of the fake library
         if self.currentSongIndex < self.songs.count-1 {
             self.currentSongIndex += 1
         } else {
             self.currentSongIndex = 0
         }
-        
-        print("After: \(self.currentSongIndex)")
         
         // Play the new song
         self.playSong()
@@ -247,7 +214,7 @@ struct MediaButtons: View {
         let url = URL(fileURLWithPath: path)
         
         do {
-            // Establish the Audio Player
+            // Initialize the Audio Player
             self.player = try AVAudioPlayer(contentsOf: url)
             
             // Play the song
@@ -265,14 +232,28 @@ struct MediaButtons: View {
         }
     }
     
+    func updatePlayTime() {
+        if self.isPlaying {
+            if let currentTime = self.player?.currentTime {
+                self.playTime = currentTime
+            }
+        } else {
+            self.isPlaying = false
+            self.timer.upstream.connect().cancel()
+        }
+    }
+    
     func timeIntervalToString(timeInterval: TimeInterval) -> String {
         let time = timeFormat.string(from: Date(timeIntervalSince1970: timeInterval))
         return time
     }
     
-    func getSystemCompatibleColor() -> Color {
+    private func getButtonColor(_ colorScheme: ColorScheme) -> Color {
+        var retval = Color.white
         
-        let retval = Color.white
+        if colorScheme == .light {
+            retval = Color.black
+        }
         
         return retval
     }
@@ -282,4 +263,34 @@ struct MediaButtons_Previews: PreviewProvider {
     static var previews: some View {
         return MediaButtons(currentSongIndex: .constant(0))
     }
+}
+
+extension Image {
+    
+    func audioButtonImage(with color: Color) -> some View {
+        self
+            .foregroundColor(color)
+            .font(.system(size: 25))
+            .padding(.trailing, 5)
+    }
+    
+    func playAudioButtonImage() -> some View {
+        self
+            .foregroundColor(Color.blue)
+            .font(.system(size: 35))
+            .padding(.trailing, 5)
+    }
+    
+    func shuffleAudioButtonImage(with color: Color) -> some View  {
+        self
+            .foregroundColor(color)
+            .padding(.trailing, 30)
+    }
+    
+    func randomAudioButtonImage(with color: Color) -> some View  {
+        self
+            .foregroundColor(color)
+            .padding(.leading, 30)
+    }
+
 }
