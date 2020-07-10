@@ -14,9 +14,9 @@ struct MediaDetail: View {
     var body: some View {
         HStack() {
             VStack(alignment: .leading) {
-                Text(media.artist)
+                Text(media.artist ?? "N/A")
                     .font(.title)
-                Text(media.title)
+                Text(media.title ?? "N/A")
             }
             Spacer()
         }

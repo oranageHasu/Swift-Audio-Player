@@ -11,8 +11,8 @@ import CoreLocation
 import UIKit
 import SwiftUI
 
-let mediaData: [Media] = load("MediaData.json")
-let features = mediaData.filter { $0.isFeatured }
+let mediaData: [Media] = []
+let features = mediaData.filter { $0.isFeatured ?? false }
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
