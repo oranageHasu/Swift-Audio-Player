@@ -7,16 +7,16 @@
 //
 
 import SwiftUI
+import Combine
 
 struct MediaList: View {
     @EnvironmentObject var userData: UserData
     
     var body: some View {
-        List {
-            ForEach(self.userData.media) { media in
-                NavigationLink(destination: MediaPlayer()) {
-                    MediaRow(media: media)
-                }
+        List(userData.networkMedia.items) { (media: Media) in
+            NavigationLink(destination: MediaPlayer()) {
+                MediaRow()
+                    .environmentObject(media)
             }
         }
     }
@@ -31,6 +31,5 @@ struct MediaList_Previews: PreviewProvider {
             .previewDevice(PreviewDevice(rawValue: deviceName))
             .previewDisplayName(deviceName)
         }
-        .environmentObject(UserData())
     }
 }

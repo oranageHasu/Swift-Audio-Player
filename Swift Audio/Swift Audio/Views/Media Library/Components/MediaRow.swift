@@ -9,12 +9,12 @@
 import SwiftUI
 
 struct MediaRow: View {
-    var media: Media
+    @EnvironmentObject var media: Media
     
     var body: some View {
         HStack {
             VStack(alignment: .leading) {
-                Text(self.media.artist)
+                Text(self.media.artistFormatted())
                     .font(.headline)
                     .foregroundColor(Color.blue)
                 Text(self.media.title)
@@ -33,6 +33,7 @@ struct MediaRow: View {
 
 struct MediaRow_Previews: PreviewProvider {
     static var previews: some View {
-        MediaRow(media: mediaData[0])
+        MediaRow()
+            .environmentObject(mediaData[0])
     }
 }

@@ -263,54 +263,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "B0D8CC38-1BA8-4F1D-AA2F-DB5403F6377F"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Swift Audio/Models/FileManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
-            landmarkName = "readFiles()"
-            landmarkType = "9">
-            <Locations>
-               <Location
-                  uuid = "B0D8CC38-1BA8-4F1D-AA2F-DB5403F6377F - d477f1c0391e771e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Swift_Audio.readFiles() -&gt; Swift.Array&lt;Swift_Audio.Media&gt;"
-                  moduleName = "Swift Audio"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/blairpetrachek/Desktop/Development/Swift-Audio-Player/Swift%20Audio/Swift%20Audio/Models/FileManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18"
-                  offsetFromSymbolStart = "165">
-               </Location>
-               <Location
-                  uuid = "B0D8CC38-1BA8-4F1D-AA2F-DB5403F6377F - 58619608fbcc01b1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Swift_Audio_PreviewReplacement_FileManager_6.(__preview__readFiles in _7D13A3C3E4ED0E6FD7E0F2746428E47C)() -&gt; Swift.Array&lt;Swift_Audio.Media&gt;"
-                  moduleName = "FileManager.6.preview-thunk.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/blairpetrachek/Desktop/Development/Swift-Audio-Player/Swift%20Audio/Swift%20Audio/Models/FileManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "125">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "276A7AC1-5870-4508-9F6A-DAAD6E616FAB"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -322,54 +274,6 @@
             endingLineNumber = "20"
             landmarkName = "load(_:)"
             landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "CA5FEED5-6E22-4975-8902-145A165AB4AF"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Swift Audio/Models/FileManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "readFiles()"
-            landmarkType = "9">
-            <Locations>
-               <Location
-                  uuid = "CA5FEED5-6E22-4975-8902-145A165AB4AF - d477f1c0391e771e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Swift_Audio.readFiles() -&gt; Swift.Array&lt;Swift_Audio.Media&gt;"
-                  moduleName = "Swift Audio"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/blairpetrachek/Desktop/Development/Swift-Audio-Player/Swift%20Audio/Swift%20Audio/Models/FileManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "35"
-                  endingLineNumber = "35"
-                  offsetFromSymbolStart = "2215">
-               </Location>
-               <Location
-                  uuid = "CA5FEED5-6E22-4975-8902-145A165AB4AF - a01c0920e2d3c48e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Swift_Audio_PreviewReplacement_FileManager_7.(__preview__readFiles in _9C7E577272B4D48D101CDE7EFC22C6CA)() -&gt; Swift.Array&lt;Swift_Audio.Media&gt;"
-                  moduleName = "FileManager.7.preview-thunk.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/blairpetrachek/Desktop/Development/Swift-Audio-Player/Swift%20Audio/Swift%20Audio/Models/FileManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "35"
-                  endingLineNumber = "35"
-                  offsetFromSymbolStart = "3596">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -450,6 +354,54 @@
             endingLineNumber = "43"
             landmarkName = "displayFolderPicker()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "23861364-355C-4246-907E-4A722B466036"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Swift Audio/Models/MediaFileManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "processFolder(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "23861364-355C-4246-907E-4A722B466036 - 370d31927fbdcea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift_Audio.MediaFileManager.processFolder(with: Foundation.URL) -&gt; ()"
+                  moduleName = "Swift Audio"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/blairpetrachek/Desktop/Development/Swift-Audio-Player/Swift%20Audio/Swift%20Audio/Models/MediaFileManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "23861364-355C-4246-907E-4A722B466036 - 744d71b115a24e7b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.URL) -&gt; () in Swift_Audio.MediaFileManager.processFolder(with: Foundation.URL) -&gt; ()"
+                  moduleName = "Swift Audio"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/blairpetrachek/Desktop/Development/Swift-Audio-Player/Swift%20Audio/Swift%20Audio/Models/MediaFileManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "424">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

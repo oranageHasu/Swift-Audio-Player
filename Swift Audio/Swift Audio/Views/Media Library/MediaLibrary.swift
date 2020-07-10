@@ -14,6 +14,7 @@ struct MediaLibrary: View {
     var body: some View {
         VStack {
             MediaListHeader()
+                .environmentObject(self.userData)
             MediaList()
                 .environmentObject(self.userData)
         }

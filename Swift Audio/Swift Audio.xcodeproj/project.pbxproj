@@ -11,7 +11,7 @@
 		3C09564224A55C85009214FF /* MediaDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C09563F24A55C85009214FF /* MediaDetail.swift */; };
 		3C09564324A55C85009214FF /* MediaImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C09564024A55C85009214FF /* MediaImage.swift */; };
 		3C09564524A560A6009214FF /* MediaListHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C09564424A560A6009214FF /* MediaListHeader.swift */; };
-		3C09564724A68858009214FF /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C09564624A68858009214FF /* FileManager.swift */; };
+		3C09564724A68858009214FF /* MediaFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C09564624A68858009214FF /* MediaFileManager.swift */; };
 		3C2203E724A95F54003B4050 /* DocumentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2203E624A95F54003B4050 /* DocumentPickerViewController.swift */; };
 		3C5E1F2E24AD39E30018F267 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5E1F2D24AD39E30018F267 /* ProfileHost.swift */; };
 		3C5E1F3024AD3A160018F267 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5E1F2F24AD3A160018F267 /* ProfileSummary.swift */; };
@@ -62,7 +62,7 @@
 		3C09563F24A55C85009214FF /* MediaDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaDetail.swift; sourceTree = "<group>"; };
 		3C09564024A55C85009214FF /* MediaImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaImage.swift; sourceTree = "<group>"; };
 		3C09564424A560A6009214FF /* MediaListHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaListHeader.swift; sourceTree = "<group>"; };
-		3C09564624A68858009214FF /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		3C09564624A68858009214FF /* MediaFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaFileManager.swift; sourceTree = "<group>"; };
 		3C2203E624A95F54003B4050 /* DocumentPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentPickerViewController.swift; sourceTree = "<group>"; };
 		3C5E1F2D24AD39E30018F267 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		3C5E1F2F24AD3A160018F267 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
@@ -245,7 +245,7 @@
 				3C60C2D7249E98E600FB7FBF /* Media.swift */,
 				3C60C2DB249EA7BC00FB7FBF /* Data.swift */,
 				3C60C2E7249EB5B000FB7FBF /* UserData.swift */,
-				3C09564624A68858009214FF /* FileManager.swift */,
+				3C09564624A68858009214FF /* MediaFileManager.swift */,
 				3C5E1F3324AD3CE20018F267 /* Profile.swift */,
 			);
 			path = Models;
@@ -433,7 +433,7 @@
 			files = (
 				3C5E1F2E24AD39E30018F267 /* ProfileHost.swift in Sources */,
 				3C5E1F3424AD3CE20018F267 /* Profile.swift in Sources */,
-				3C09564724A68858009214FF /* FileManager.swift in Sources */,
+				3C09564724A68858009214FF /* MediaFileManager.swift in Sources */,
 				3C60C2A4249E918A00FB7FBF /* AppDelegate.swift in Sources */,
 				3C9BACF724A55B780003CF13 /* MediaPlayer.swift in Sources */,
 				3C60C2DC249EA7BC00FB7FBF /* Data.swift in Sources */,

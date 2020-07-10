@@ -6,33 +6,55 @@
 //  Copyright © 2020 Blair Petrachek. All rights reserved.
 //
 
+import Foundation
+import Combine
 import SwiftUI
-import CoreLocation
 
-struct Media: Hashable, Codable, Identifiable {
-    
+class MediaCollection: ObservableObject {
+    @Published var items: [Media] = []
+}
+
+class Media: ObservableObject, Identifiable {
     // id of the Media within the User's library
-    var id: Int
+    var id: Int?
     
     // Media Meta Data
-    var artist: String
-    var title: String
-    var duration: String
-    fileprivate var imageName: String
+    @Published var artist: String = "Default"
+    @Published var title: String = "Default"
+    @Published var duration: String = "Default"
+    fileprivate var imageName: String = ""
     
     // Media source
-    var source: Source
+    var source: Source?
     
     // User Preferences
-    var isFavorite: Bool
+    var isFavorite: Bool?
     
     // Owner Preferences
-    var isFeatured: Bool
+    var isFeatured: Bool?
 
     // Enum registering supported input streams for media
-    enum Source: String, CaseIterable, Codable, Hashable {
+    enum Source: String, CaseIterable, Codable {
         case digitalFile = "DigitalFile"
         case youtube = "Youtube"
+    }
+    
+    required init(from decoder: Decoder) throws {
+        print("error decoding.")
+    }
+    
+    func encode(to encoder: Encoder) throws {
+        print("error encoding")
+    }
+    
+    init(artist: String, title: String, duration: String) {
+        self.artist = artist
+        self.title = title
+        self.duration = duration
+    }
+    
+    func artistFormatted() -> String {
+        return self.artist
     }
 }
 
